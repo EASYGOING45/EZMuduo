@@ -1,0 +1,1 @@
+/usr/bin/g++ -fPIC  -g -std=c++11 -fPIC -g -shared -Wl,-soname,libEZmuduo.so -o /home/huan/projects/EZMuduo/lib/libEZmuduo.so CMakeFiles/EZmuduo.dir/Logger.o 

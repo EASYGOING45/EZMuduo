@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/huan/projects/EZMuduo/build",
+  "command": "/usr/bin/g++ -DEZmuduo_EXPORTS   -g -std=c++11 -fPIC -g -fPIC -o CMakeFiles/EZmuduo.dir/Logger.o -c /home/huan/projects/EZMuduo/Logger.cc",
+  "file": "/home/huan/projects/EZMuduo/Logger.cc"
+}
+]
