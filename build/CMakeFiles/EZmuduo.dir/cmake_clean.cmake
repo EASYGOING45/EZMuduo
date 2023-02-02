@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "/home/huan/projects/EZMuduo/lib/libEZmuduo.so"
   "CMakeFiles/EZmuduo.dir/Logger.o"
   "CMakeFiles/EZmuduo.dir/Logger.o.d"
+  "CMakeFiles/EZmuduo.dir/Timestamp.o"
+  "CMakeFiles/EZmuduo.dir/Timestamp.o.d"
 )
 
 # Per-language clean rules from dependency scanning.
