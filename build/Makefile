@@ -130,6 +130,21 @@ EZmuduo/fast:
 .PHONY : EZmuduo/fast
 
 # target to build an object file
+Channel.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EZmuduo.dir/build.make CMakeFiles/EZmuduo.dir/Channel.o
+.PHONY : Channel.o
+
+# target to preprocess a source file
+Channel.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EZmuduo.dir/build.make CMakeFiles/EZmuduo.dir/Channel.i
+.PHONY : Channel.i
+
+# target to generate assembly for a file
+Channel.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EZmuduo.dir/build.make CMakeFiles/EZmuduo.dir/Channel.s
+.PHONY : Channel.s
+
+# target to build an object file
 InetAddress.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/EZmuduo.dir/build.make CMakeFiles/EZmuduo.dir/InetAddress.o
 .PHONY : InetAddress.o
@@ -183,6 +198,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... EZmuduo"
+	@echo "... Channel.o"
+	@echo "... Channel.i"
+	@echo "... Channel.s"
 	@echo "... InetAddress.o"
 	@echo "... InetAddress.i"
 	@echo "... InetAddress.s"
