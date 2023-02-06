@@ -145,6 +145,21 @@ Channel.s:
 .PHONY : Channel.s
 
 # target to build an object file
+EventLoop.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EZmuduo.dir/build.make CMakeFiles/EZmuduo.dir/EventLoop.o
+.PHONY : EventLoop.o
+
+# target to preprocess a source file
+EventLoop.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EZmuduo.dir/build.make CMakeFiles/EZmuduo.dir/EventLoop.i
+.PHONY : EventLoop.i
+
+# target to generate assembly for a file
+EventLoop.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EZmuduo.dir/build.make CMakeFiles/EZmuduo.dir/EventLoop.s
+.PHONY : EventLoop.s
+
+# target to build an object file
 InetAddress.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/EZmuduo.dir/build.make CMakeFiles/EZmuduo.dir/InetAddress.o
 .PHONY : InetAddress.o
@@ -201,6 +216,9 @@ help:
 	@echo "... Channel.o"
 	@echo "... Channel.i"
 	@echo "... Channel.s"
+	@echo "... EventLoop.o"
+	@echo "... EventLoop.i"
+	@echo "... EventLoop.s"
 	@echo "... InetAddress.o"
 	@echo "... InetAddress.i"
 	@echo "... InetAddress.s"

@@ -6,6 +6,11 @@
 },
 {
   "directory": "/home/huan/projects/EZMuduo/build",
+  "command": "/usr/bin/g++ -DEZmuduo_EXPORTS   -g -std=c++11 -fPIC -g -fPIC -o CMakeFiles/EZmuduo.dir/EventLoop.o -c /home/huan/projects/EZMuduo/EventLoop.cc",
+  "file": "/home/huan/projects/EZMuduo/EventLoop.cc"
+},
+{
+  "directory": "/home/huan/projects/EZMuduo/build",
   "command": "/usr/bin/g++ -DEZmuduo_EXPORTS   -g -std=c++11 -fPIC -g -fPIC -o CMakeFiles/EZmuduo.dir/InetAddress.o -c /home/huan/projects/EZMuduo/InetAddress.cc",
   "file": "/home/huan/projects/EZMuduo/InetAddress.cc"
 },
