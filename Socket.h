@@ -16,7 +16,9 @@ public:
     void listen();                                  // 监听套接字
     int accept(InetAddress *peeraddr);              // 接受连接 参数为InetAddress类的指针 peeraddr为对端地址
 
-    void shutdownWrite();        // 关闭写端  用于TcpConnection类
+    void shutdownWrite(); // 关闭写端  用于TcpConnection类
+
+    // Nagle算法 用于提高网络传输效率 但是会导致延迟 通过设置TCP_NODELAY选项可以禁用Nagle算法
     void setTcpNoDelay(bool on); // 设置TCP_NODELAY选项 用于TcpConnection类 TCP_NODELAY选项用于禁用Nagle算法
     void setReuseAddr(bool on);  // 设置SO_REUSEADDR选项 用于TcpServer类 SO_REUSEADDR选项允许多个进程或线程绑定到同一个端口
     void setReusePort(bool on);  // 设置SO_REUSEPORT选项 用于TcpServer类 SO_REUSEPORT选项允许多个进程或线程绑定到同一个端口
