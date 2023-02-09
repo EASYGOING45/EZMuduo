@@ -6,6 +6,11 @@
 },
 {
   "directory": "/home/huan/projects/EZMuduo/build",
+  "command": "/usr/bin/g++ -DEZmuduo_EXPORTS   -g -std=c++11 -fPIC -g -fPIC -o CMakeFiles/EZmuduo.dir/CurrentThread.o -c /home/huan/projects/EZMuduo/CurrentThread.cc",
+  "file": "/home/huan/projects/EZMuduo/CurrentThread.cc"
+},
+{
+  "directory": "/home/huan/projects/EZMuduo/build",
   "command": "/usr/bin/g++ -DEZmuduo_EXPORTS   -g -std=c++11 -fPIC -g -fPIC -o CMakeFiles/EZmuduo.dir/DefaultPoller.o -c /home/huan/projects/EZMuduo/DefaultPoller.cc",
   "file": "/home/huan/projects/EZMuduo/DefaultPoller.cc"
 },
@@ -33,6 +38,11 @@
   "directory": "/home/huan/projects/EZMuduo/build",
   "command": "/usr/bin/g++ -DEZmuduo_EXPORTS   -g -std=c++11 -fPIC -g -fPIC -o CMakeFiles/EZmuduo.dir/Poller.o -c /home/huan/projects/EZMuduo/Poller.cc",
   "file": "/home/huan/projects/EZMuduo/Poller.cc"
+},
+{
+  "directory": "/home/huan/projects/EZMuduo/build",
+  "command": "/usr/bin/g++ -DEZmuduo_EXPORTS   -g -std=c++11 -fPIC -g -fPIC -o CMakeFiles/EZmuduo.dir/Socket.o -c /home/huan/projects/EZMuduo/Socket.cc",
+  "file": "/home/huan/projects/EZMuduo/Socket.cc"
 },
 {
   "directory": "/home/huan/projects/EZMuduo/build",

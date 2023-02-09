@@ -145,6 +145,21 @@ Channel.s:
 .PHONY : Channel.s
 
 # target to build an object file
+CurrentThread.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EZmuduo.dir/build.make CMakeFiles/EZmuduo.dir/CurrentThread.o
+.PHONY : CurrentThread.o
+
+# target to preprocess a source file
+CurrentThread.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EZmuduo.dir/build.make CMakeFiles/EZmuduo.dir/CurrentThread.i
+.PHONY : CurrentThread.i
+
+# target to generate assembly for a file
+CurrentThread.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EZmuduo.dir/build.make CMakeFiles/EZmuduo.dir/CurrentThread.s
+.PHONY : CurrentThread.s
+
+# target to build an object file
 DefaultPoller.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/EZmuduo.dir/build.make CMakeFiles/EZmuduo.dir/DefaultPoller.o
 .PHONY : DefaultPoller.o
@@ -235,6 +250,21 @@ Poller.s:
 .PHONY : Poller.s
 
 # target to build an object file
+Socket.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EZmuduo.dir/build.make CMakeFiles/EZmuduo.dir/Socket.o
+.PHONY : Socket.o
+
+# target to preprocess a source file
+Socket.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EZmuduo.dir/build.make CMakeFiles/EZmuduo.dir/Socket.i
+.PHONY : Socket.i
+
+# target to generate assembly for a file
+Socket.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EZmuduo.dir/build.make CMakeFiles/EZmuduo.dir/Socket.s
+.PHONY : Socket.s
+
+# target to build an object file
 Timestamp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/EZmuduo.dir/build.make CMakeFiles/EZmuduo.dir/Timestamp.o
 .PHONY : Timestamp.o
@@ -261,6 +291,9 @@ help:
 	@echo "... Channel.o"
 	@echo "... Channel.i"
 	@echo "... Channel.s"
+	@echo "... CurrentThread.o"
+	@echo "... CurrentThread.i"
+	@echo "... CurrentThread.s"
 	@echo "... DefaultPoller.o"
 	@echo "... DefaultPoller.i"
 	@echo "... DefaultPoller.s"
@@ -279,6 +312,9 @@ help:
 	@echo "... Poller.o"
 	@echo "... Poller.i"
 	@echo "... Poller.s"
+	@echo "... Socket.o"
+	@echo "... Socket.i"
+	@echo "... Socket.s"
 	@echo "... Timestamp.o"
 	@echo "... Timestamp.i"
 	@echo "... Timestamp.s"
