@@ -130,6 +130,21 @@ EZmuduo/fast:
 .PHONY : EZmuduo/fast
 
 # target to build an object file
+Acceptor.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EZmuduo.dir/build.make CMakeFiles/EZmuduo.dir/Acceptor.o
+.PHONY : Acceptor.o
+
+# target to preprocess a source file
+Acceptor.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EZmuduo.dir/build.make CMakeFiles/EZmuduo.dir/Acceptor.i
+.PHONY : Acceptor.i
+
+# target to generate assembly for a file
+Acceptor.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EZmuduo.dir/build.make CMakeFiles/EZmuduo.dir/Acceptor.s
+.PHONY : Acceptor.s
+
+# target to build an object file
 Channel.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/EZmuduo.dir/build.make CMakeFiles/EZmuduo.dir/Channel.o
 .PHONY : Channel.o
@@ -288,6 +303,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... EZmuduo"
+	@echo "... Acceptor.o"
+	@echo "... Acceptor.i"
+	@echo "... Acceptor.s"
 	@echo "... Channel.o"
 	@echo "... Channel.i"
 	@echo "... Channel.s"

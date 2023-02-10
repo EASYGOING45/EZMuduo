@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "/home/huan/projects/EZMuduo/lib/libEZmuduo.pdb"
   "/home/huan/projects/EZMuduo/lib/libEZmuduo.so"
+  "CMakeFiles/EZmuduo.dir/Acceptor.o"
+  "CMakeFiles/EZmuduo.dir/Acceptor.o.d"
   "CMakeFiles/EZmuduo.dir/Channel.o"
   "CMakeFiles/EZmuduo.dir/Channel.o.d"
   "CMakeFiles/EZmuduo.dir/CurrentThread.o"

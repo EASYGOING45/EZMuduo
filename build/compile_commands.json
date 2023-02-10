@@ -1,6 +1,11 @@
 [
 {
   "directory": "/home/huan/projects/EZMuduo/build",
+  "command": "/usr/bin/g++ -DEZmuduo_EXPORTS   -g -std=c++11 -fPIC -g -fPIC -o CMakeFiles/EZmuduo.dir/Acceptor.o -c /home/huan/projects/EZMuduo/Acceptor.cc",
+  "file": "/home/huan/projects/EZMuduo/Acceptor.cc"
+},
+{
+  "directory": "/home/huan/projects/EZMuduo/build",
   "command": "/usr/bin/g++ -DEZmuduo_EXPORTS   -g -std=c++11 -fPIC -g -fPIC -o CMakeFiles/EZmuduo.dir/Channel.o -c /home/huan/projects/EZMuduo/Channel.cc",
   "file": "/home/huan/projects/EZMuduo/Channel.cc"
 },
