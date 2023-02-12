@@ -51,6 +51,11 @@
 },
 {
   "directory": "/home/huan/projects/EZMuduo/build",
+  "command": "/usr/bin/g++ -DEZmuduo_EXPORTS   -g -std=c++11 -fPIC -g -fPIC -o CMakeFiles/EZmuduo.dir/Thread.o -c /home/huan/projects/EZMuduo/Thread.cc",
+  "file": "/home/huan/projects/EZMuduo/Thread.cc"
+},
+{
+  "directory": "/home/huan/projects/EZMuduo/build",
   "command": "/usr/bin/g++ -DEZmuduo_EXPORTS   -g -std=c++11 -fPIC -g -fPIC -o CMakeFiles/EZmuduo.dir/Timestamp.o -c /home/huan/projects/EZMuduo/Timestamp.cc",
   "file": "/home/huan/projects/EZMuduo/Timestamp.cc"
 }

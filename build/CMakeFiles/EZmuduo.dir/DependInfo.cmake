@@ -18,6 +18,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/huan/projects/EZMuduo/Logger.cc" "CMakeFiles/EZmuduo.dir/Logger.o" "gcc" "CMakeFiles/EZmuduo.dir/Logger.o.d"
   "/home/huan/projects/EZMuduo/Poller.cc" "CMakeFiles/EZmuduo.dir/Poller.o" "gcc" "CMakeFiles/EZmuduo.dir/Poller.o.d"
   "/home/huan/projects/EZMuduo/Socket.cc" "CMakeFiles/EZmuduo.dir/Socket.o" "gcc" "CMakeFiles/EZmuduo.dir/Socket.o.d"
+  "/home/huan/projects/EZMuduo/Thread.cc" "CMakeFiles/EZmuduo.dir/Thread.o" "gcc" "CMakeFiles/EZmuduo.dir/Thread.o.d"
   "/home/huan/projects/EZMuduo/Timestamp.cc" "CMakeFiles/EZmuduo.dir/Timestamp.o" "gcc" "CMakeFiles/EZmuduo.dir/Timestamp.o.d"
   )
 

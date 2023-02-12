@@ -21,6 +21,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/EZmuduo.dir/Poller.o.d"
   "CMakeFiles/EZmuduo.dir/Socket.o"
   "CMakeFiles/EZmuduo.dir/Socket.o.d"
+  "CMakeFiles/EZmuduo.dir/Thread.o"
+  "CMakeFiles/EZmuduo.dir/Thread.o.d"
   "CMakeFiles/EZmuduo.dir/Timestamp.o"
   "CMakeFiles/EZmuduo.dir/Timestamp.o.d"
 )

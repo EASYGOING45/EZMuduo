@@ -280,6 +280,21 @@ Socket.s:
 .PHONY : Socket.s
 
 # target to build an object file
+Thread.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EZmuduo.dir/build.make CMakeFiles/EZmuduo.dir/Thread.o
+.PHONY : Thread.o
+
+# target to preprocess a source file
+Thread.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EZmuduo.dir/build.make CMakeFiles/EZmuduo.dir/Thread.i
+.PHONY : Thread.i
+
+# target to generate assembly for a file
+Thread.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EZmuduo.dir/build.make CMakeFiles/EZmuduo.dir/Thread.s
+.PHONY : Thread.s
+
+# target to build an object file
 Timestamp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/EZmuduo.dir/build.make CMakeFiles/EZmuduo.dir/Timestamp.o
 .PHONY : Timestamp.o
@@ -333,6 +348,9 @@ help:
 	@echo "... Socket.o"
 	@echo "... Socket.i"
 	@echo "... Socket.s"
+	@echo "... Thread.o"
+	@echo "... Thread.i"
+	@echo "... Thread.s"
 	@echo "... Timestamp.o"
 	@echo "... Timestamp.i"
 	@echo "... Timestamp.s"
