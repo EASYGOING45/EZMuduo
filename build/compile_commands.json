@@ -31,6 +31,16 @@
 },
 {
   "directory": "/home/huan/projects/EZMuduo/build",
+  "command": "/usr/bin/g++ -DEZmuduo_EXPORTS   -g -std=c++11 -fPIC -g -fPIC -o CMakeFiles/EZmuduo.dir/EventLoopThread.o -c /home/huan/projects/EZMuduo/EventLoopThread.cc",
+  "file": "/home/huan/projects/EZMuduo/EventLoopThread.cc"
+},
+{
+  "directory": "/home/huan/projects/EZMuduo/build",
+  "command": "/usr/bin/g++ -DEZmuduo_EXPORTS   -g -std=c++11 -fPIC -g -fPIC -o CMakeFiles/EZmuduo.dir/EventLoopThreadPool.o -c /home/huan/projects/EZMuduo/EventLoopThreadPool.cc",
+  "file": "/home/huan/projects/EZMuduo/EventLoopThreadPool.cc"
+},
+{
+  "directory": "/home/huan/projects/EZMuduo/build",
   "command": "/usr/bin/g++ -DEZmuduo_EXPORTS   -g -std=c++11 -fPIC -g -fPIC -o CMakeFiles/EZmuduo.dir/InetAddress.o -c /home/huan/projects/EZMuduo/InetAddress.cc",
   "file": "/home/huan/projects/EZMuduo/InetAddress.cc"
 },

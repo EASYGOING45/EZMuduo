@@ -153,10 +153,38 @@ CMakeFiles/EZmuduo.dir/EventLoop.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/EZmuduo.dir/EventLoop.s"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/huan/projects/EZMuduo/EventLoop.cc -o CMakeFiles/EZmuduo.dir/EventLoop.s
 
+CMakeFiles/EZmuduo.dir/EventLoopThread.o: CMakeFiles/EZmuduo.dir/flags.make
+CMakeFiles/EZmuduo.dir/EventLoopThread.o: /home/huan/projects/EZMuduo/EventLoopThread.cc
+CMakeFiles/EZmuduo.dir/EventLoopThread.o: CMakeFiles/EZmuduo.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/huan/projects/EZMuduo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/EZmuduo.dir/EventLoopThread.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EZmuduo.dir/EventLoopThread.o -MF CMakeFiles/EZmuduo.dir/EventLoopThread.o.d -o CMakeFiles/EZmuduo.dir/EventLoopThread.o -c /home/huan/projects/EZMuduo/EventLoopThread.cc
+
+CMakeFiles/EZmuduo.dir/EventLoopThread.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/EZmuduo.dir/EventLoopThread.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/huan/projects/EZMuduo/EventLoopThread.cc > CMakeFiles/EZmuduo.dir/EventLoopThread.i
+
+CMakeFiles/EZmuduo.dir/EventLoopThread.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/EZmuduo.dir/EventLoopThread.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/huan/projects/EZMuduo/EventLoopThread.cc -o CMakeFiles/EZmuduo.dir/EventLoopThread.s
+
+CMakeFiles/EZmuduo.dir/EventLoopThreadPool.o: CMakeFiles/EZmuduo.dir/flags.make
+CMakeFiles/EZmuduo.dir/EventLoopThreadPool.o: /home/huan/projects/EZMuduo/EventLoopThreadPool.cc
+CMakeFiles/EZmuduo.dir/EventLoopThreadPool.o: CMakeFiles/EZmuduo.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/huan/projects/EZMuduo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/EZmuduo.dir/EventLoopThreadPool.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EZmuduo.dir/EventLoopThreadPool.o -MF CMakeFiles/EZmuduo.dir/EventLoopThreadPool.o.d -o CMakeFiles/EZmuduo.dir/EventLoopThreadPool.o -c /home/huan/projects/EZMuduo/EventLoopThreadPool.cc
+
+CMakeFiles/EZmuduo.dir/EventLoopThreadPool.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/EZmuduo.dir/EventLoopThreadPool.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/huan/projects/EZMuduo/EventLoopThreadPool.cc > CMakeFiles/EZmuduo.dir/EventLoopThreadPool.i
+
+CMakeFiles/EZmuduo.dir/EventLoopThreadPool.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/EZmuduo.dir/EventLoopThreadPool.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/huan/projects/EZMuduo/EventLoopThreadPool.cc -o CMakeFiles/EZmuduo.dir/EventLoopThreadPool.s
+
 CMakeFiles/EZmuduo.dir/InetAddress.o: CMakeFiles/EZmuduo.dir/flags.make
 CMakeFiles/EZmuduo.dir/InetAddress.o: /home/huan/projects/EZMuduo/InetAddress.cc
 CMakeFiles/EZmuduo.dir/InetAddress.o: CMakeFiles/EZmuduo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/huan/projects/EZMuduo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/EZmuduo.dir/InetAddress.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/huan/projects/EZMuduo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/EZmuduo.dir/InetAddress.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EZmuduo.dir/InetAddress.o -MF CMakeFiles/EZmuduo.dir/InetAddress.o.d -o CMakeFiles/EZmuduo.dir/InetAddress.o -c /home/huan/projects/EZMuduo/InetAddress.cc
 
 CMakeFiles/EZmuduo.dir/InetAddress.i: cmake_force
@@ -170,7 +198,7 @@ CMakeFiles/EZmuduo.dir/InetAddress.s: cmake_force
 CMakeFiles/EZmuduo.dir/Logger.o: CMakeFiles/EZmuduo.dir/flags.make
 CMakeFiles/EZmuduo.dir/Logger.o: /home/huan/projects/EZMuduo/Logger.cc
 CMakeFiles/EZmuduo.dir/Logger.o: CMakeFiles/EZmuduo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/huan/projects/EZMuduo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/EZmuduo.dir/Logger.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/huan/projects/EZMuduo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/EZmuduo.dir/Logger.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EZmuduo.dir/Logger.o -MF CMakeFiles/EZmuduo.dir/Logger.o.d -o CMakeFiles/EZmuduo.dir/Logger.o -c /home/huan/projects/EZMuduo/Logger.cc
 
 CMakeFiles/EZmuduo.dir/Logger.i: cmake_force
@@ -184,7 +212,7 @@ CMakeFiles/EZmuduo.dir/Logger.s: cmake_force
 CMakeFiles/EZmuduo.dir/Poller.o: CMakeFiles/EZmuduo.dir/flags.make
 CMakeFiles/EZmuduo.dir/Poller.o: /home/huan/projects/EZMuduo/Poller.cc
 CMakeFiles/EZmuduo.dir/Poller.o: CMakeFiles/EZmuduo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/huan/projects/EZMuduo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/EZmuduo.dir/Poller.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/huan/projects/EZMuduo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/EZmuduo.dir/Poller.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EZmuduo.dir/Poller.o -MF CMakeFiles/EZmuduo.dir/Poller.o.d -o CMakeFiles/EZmuduo.dir/Poller.o -c /home/huan/projects/EZMuduo/Poller.cc
 
 CMakeFiles/EZmuduo.dir/Poller.i: cmake_force
@@ -198,7 +226,7 @@ CMakeFiles/EZmuduo.dir/Poller.s: cmake_force
 CMakeFiles/EZmuduo.dir/Socket.o: CMakeFiles/EZmuduo.dir/flags.make
 CMakeFiles/EZmuduo.dir/Socket.o: /home/huan/projects/EZMuduo/Socket.cc
 CMakeFiles/EZmuduo.dir/Socket.o: CMakeFiles/EZmuduo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/huan/projects/EZMuduo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/EZmuduo.dir/Socket.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/huan/projects/EZMuduo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/EZmuduo.dir/Socket.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EZmuduo.dir/Socket.o -MF CMakeFiles/EZmuduo.dir/Socket.o.d -o CMakeFiles/EZmuduo.dir/Socket.o -c /home/huan/projects/EZMuduo/Socket.cc
 
 CMakeFiles/EZmuduo.dir/Socket.i: cmake_force
@@ -212,7 +240,7 @@ CMakeFiles/EZmuduo.dir/Socket.s: cmake_force
 CMakeFiles/EZmuduo.dir/Thread.o: CMakeFiles/EZmuduo.dir/flags.make
 CMakeFiles/EZmuduo.dir/Thread.o: /home/huan/projects/EZMuduo/Thread.cc
 CMakeFiles/EZmuduo.dir/Thread.o: CMakeFiles/EZmuduo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/huan/projects/EZMuduo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/EZmuduo.dir/Thread.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/huan/projects/EZMuduo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/EZmuduo.dir/Thread.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EZmuduo.dir/Thread.o -MF CMakeFiles/EZmuduo.dir/Thread.o.d -o CMakeFiles/EZmuduo.dir/Thread.o -c /home/huan/projects/EZMuduo/Thread.cc
 
 CMakeFiles/EZmuduo.dir/Thread.i: cmake_force
@@ -226,7 +254,7 @@ CMakeFiles/EZmuduo.dir/Thread.s: cmake_force
 CMakeFiles/EZmuduo.dir/Timestamp.o: CMakeFiles/EZmuduo.dir/flags.make
 CMakeFiles/EZmuduo.dir/Timestamp.o: /home/huan/projects/EZMuduo/Timestamp.cc
 CMakeFiles/EZmuduo.dir/Timestamp.o: CMakeFiles/EZmuduo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/huan/projects/EZMuduo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/EZmuduo.dir/Timestamp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/huan/projects/EZMuduo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/EZmuduo.dir/Timestamp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EZmuduo.dir/Timestamp.o -MF CMakeFiles/EZmuduo.dir/Timestamp.o.d -o CMakeFiles/EZmuduo.dir/Timestamp.o -c /home/huan/projects/EZMuduo/Timestamp.cc
 
 CMakeFiles/EZmuduo.dir/Timestamp.i: cmake_force
@@ -245,6 +273,8 @@ EZmuduo_OBJECTS = \
 "CMakeFiles/EZmuduo.dir/DefaultPoller.o" \
 "CMakeFiles/EZmuduo.dir/EpollPoller.o" \
 "CMakeFiles/EZmuduo.dir/EventLoop.o" \
+"CMakeFiles/EZmuduo.dir/EventLoopThread.o" \
+"CMakeFiles/EZmuduo.dir/EventLoopThreadPool.o" \
 "CMakeFiles/EZmuduo.dir/InetAddress.o" \
 "CMakeFiles/EZmuduo.dir/Logger.o" \
 "CMakeFiles/EZmuduo.dir/Poller.o" \
@@ -261,6 +291,8 @@ EZmuduo_EXTERNAL_OBJECTS =
 /home/huan/projects/EZMuduo/lib/libEZmuduo.so: CMakeFiles/EZmuduo.dir/DefaultPoller.o
 /home/huan/projects/EZMuduo/lib/libEZmuduo.so: CMakeFiles/EZmuduo.dir/EpollPoller.o
 /home/huan/projects/EZMuduo/lib/libEZmuduo.so: CMakeFiles/EZmuduo.dir/EventLoop.o
+/home/huan/projects/EZMuduo/lib/libEZmuduo.so: CMakeFiles/EZmuduo.dir/EventLoopThread.o
+/home/huan/projects/EZMuduo/lib/libEZmuduo.so: CMakeFiles/EZmuduo.dir/EventLoopThreadPool.o
 /home/huan/projects/EZMuduo/lib/libEZmuduo.so: CMakeFiles/EZmuduo.dir/InetAddress.o
 /home/huan/projects/EZMuduo/lib/libEZmuduo.so: CMakeFiles/EZmuduo.dir/Logger.o
 /home/huan/projects/EZMuduo/lib/libEZmuduo.so: CMakeFiles/EZmuduo.dir/Poller.o
@@ -269,7 +301,7 @@ EZmuduo_EXTERNAL_OBJECTS =
 /home/huan/projects/EZMuduo/lib/libEZmuduo.so: CMakeFiles/EZmuduo.dir/Timestamp.o
 /home/huan/projects/EZMuduo/lib/libEZmuduo.so: CMakeFiles/EZmuduo.dir/build.make
 /home/huan/projects/EZMuduo/lib/libEZmuduo.so: CMakeFiles/EZmuduo.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/huan/projects/EZMuduo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX shared library /home/huan/projects/EZMuduo/lib/libEZmuduo.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/huan/projects/EZMuduo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX shared library /home/huan/projects/EZMuduo/lib/libEZmuduo.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/EZmuduo.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
