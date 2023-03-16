@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/huan/projects/EZMuduo/Acceptor.cc" "CMakeFiles/EZmuduo.dir/Acceptor.o" "gcc" "CMakeFiles/EZmuduo.dir/Acceptor.o.d"
+  "/home/huan/projects/EZMuduo/Buffer.cc" "CMakeFiles/EZmuduo.dir/Buffer.o" "gcc" "CMakeFiles/EZmuduo.dir/Buffer.o.d"
   "/home/huan/projects/EZMuduo/Channel.cc" "CMakeFiles/EZmuduo.dir/Channel.o" "gcc" "CMakeFiles/EZmuduo.dir/Channel.o.d"
   "/home/huan/projects/EZMuduo/CurrentThread.cc" "CMakeFiles/EZmuduo.dir/CurrentThread.o" "gcc" "CMakeFiles/EZmuduo.dir/CurrentThread.o.d"
   "/home/huan/projects/EZMuduo/DefaultPoller.cc" "CMakeFiles/EZmuduo.dir/DefaultPoller.o" "gcc" "CMakeFiles/EZmuduo.dir/DefaultPoller.o.d"

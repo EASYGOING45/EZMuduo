@@ -6,6 +6,11 @@
 },
 {
   "directory": "/home/huan/projects/EZMuduo/build",
+  "command": "/usr/bin/g++ -DEZmuduo_EXPORTS   -g -std=c++11 -fPIC -g -fPIC -o CMakeFiles/EZmuduo.dir/Buffer.o -c /home/huan/projects/EZMuduo/Buffer.cc",
+  "file": "/home/huan/projects/EZMuduo/Buffer.cc"
+},
+{
+  "directory": "/home/huan/projects/EZMuduo/build",
   "command": "/usr/bin/g++ -DEZmuduo_EXPORTS   -g -std=c++11 -fPIC -g -fPIC -o CMakeFiles/EZmuduo.dir/Channel.o -c /home/huan/projects/EZMuduo/Channel.cc",
   "file": "/home/huan/projects/EZMuduo/Channel.cc"
 },
